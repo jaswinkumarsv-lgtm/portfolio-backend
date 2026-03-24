@@ -37,7 +37,7 @@ if (form) {
         submitBtn.disabled = true;
 
         try {
-            const response = await fetch("http://127.0.0.1:3000/contact", {
+            const response = await fetch("https://portfolio-backend-bq7x.onrender.com/contact", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
